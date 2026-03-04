@@ -1,0 +1,27 @@
+{
+  "n_raw": 9480,
+  "n_clean": 8621,
+  "power_mean": 18.780257510729612,
+  "power_std": 25.016092212063235,
+  "power_median": 0.97,
+  "power_q25": 0.0,
+  "power_q75": 39.39,
+  "poa_mean": 176.82096740517343,
+  "poa_max": 1002.42,
+  "pct_nonzero": 56.00278389977961,
+  "pct_zero": 43.99721610022039,
+  "n_train_epochs": 102,
+  "residuals_nn_mean": 0.28115120265794835,
+  "residuals_nn_std": 3.1528417457879607,
+  "nn_improvement": 16.910649750307506,
+  "best_hp": {
+    "hidden_layers": 3,
+    "hidden_units": 256,
+    "dropout": 0.3552662183470917,
+    "lr": 0.005785498689372763,
+    "batch_size": 256
+  },
+  "total_params": 134913,
+  "power_col": "Power [kW]",
+  "poa_col": "POA irradiance (sensor) [W/m\u00b2]"
+}
