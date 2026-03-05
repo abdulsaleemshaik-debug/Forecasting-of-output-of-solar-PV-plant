@@ -1,0 +1,42 @@
+
+% ── Better tables ──
+\usepackage{booktabs}
+\renewcommand{\arraystretch}{1.3}
+
+% ── Figure handling ──
+\usepackage{float}
+
+%  Force max image size 
+\usepackage{graphicx}
+\setkeys{Gin}{width=0.95\linewidth,keepaspectratio}
+
+
+% ── Colors ──
+\usepackage{xcolor}
+\definecolor{darkblue}{RGB}{0,51,102}
+
+% ── Section heading formatting ──
+\usepackage{titlesec}
+\titleformat{\section}{\Large\bfseries\sffamily\color{darkblue}}{\thesection}{1em}{}
+\titleformat{\subsection}{\large\bfseries\sffamily\color{darkblue}}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries\sffamily\color{darkblue}}{\thesubsubsection}{1em}{}
+\titlespacing*{\section}{0pt}{18pt}{8pt}
+\titlespacing*{\subsection}{0pt}{14pt}{6pt}
+\titlespacing*{\subsubsection}{0pt}{10pt}{4pt}
+
+% ── Paragraph spacing ──
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parindent}{0pt}
+
+% ── Header/footer ──
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{gray}Solar PV Forecasting -- Journal Paper}
+\fancyhead[R]{\small\sffamily\color{gray}\thepage}
+\fancyfoot[C]{}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ── Prevent widows/orphans ──
+\widowpenalty=10000
+\clubpenalty=10000
